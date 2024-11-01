@@ -1,0 +1,143 @@
+.bc-editable-link {
+    color: #428bca;
+    background: none;
+    border: none;
+    margin: 0;
+    padding: 2px 1px;
+    text-decoration: none;
+    cursor: pointer;
+    border-bottom: 1px dashed;
+    text-decoration: none;
+}
+
+.bc-editable-cancel span {
+    padding: 5px 2.5px;
+}
+
+.column-serialid {
+    width: 4%;
+    font-weight: bold;
+    text-align: center !important;
+}
+
+.column-wc_order_id {
+    width: 60px;
+}
+
+.column-action_process_sync {
+    width: 50px;
+    text-align: center !important;
+}
+
+.bc-login > div {
+    margin-top: 7.5px;
+}
+
+.bc-login label {
+    display: block;
+    font-size: 14px;
+}
+
+.bc-login .input {
+    padding: 8px 10px;
+    font-size: 14px;
+    min-width: 350px;
+}
+
+.bc-alert {
+    padding: 5px 10px;
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+}
+
+.bc-alert-success {
+    padding: 5px 10px;
+    color: #155724;
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+}
+
+.bc-label {
+    padding: 3.5px 8px;
+  -webkit-box-decoration-break: clone;
+  -o-box-decoration-break: clone;
+  box-decoration-break: clone;
+}
+
+.bc-label.success {
+    background: #28a745;
+    color: #fff;
+}
+.bc-label.primary {
+    background: #17a2b8;
+    color: #fff;
+}
+.bc-label.default {
+    background: #f8f9fa;
+    color: #212529;
+    border: 1px solid #212529;
+}
+.bc-label.danger {
+    background: #dc3545;
+    color: #fff;
+}
+
+.beecloud-woo_page_wcbc_menu_order .column-total {
+    text-align: right;
+    width: 110px;
+}
+.beecloud-woo_page_wcbc_menu_order .column-sync_status {
+    text-align: center;
+    min-width: 135px;
+}
+
+.bc-col-50 {
+    width: 45%;
+    display: inline-block;
+    float: left;
+}
+.bc-col-50:nth-child(even) {
+    float: right;
+}
+
+.bc-card-header {
+    border-bottom: 1px solid #333;
+}
+.bc-card-header h2 {
+    display: inline-block;
+}
+.bc-card-header + table th,
+.bc-card-header + table td {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+#bc-btn-logout {
+    float: right;
+    margin: 10px 0;
+}
+.bc-btn-download {
+    float: right;
+    margin: 10px 0 !important;
+}
+
+.bc-table-log {
+    table-layout: fixed;
+}
+.bc-table-log tr td:nth-child(3) {
+    width: 70%;
+    word-wrap: break-word;
+}
+.dashicons.spin {
+   animation: dashicons-spin 1s infinite;
+   animation-timing-function: linear;
+}
+
+@keyframes dashicons-spin {
+   0% {
+      transform: rotate( 0deg );
+   }
+   100% {
+      transform: rotate( 360deg );
+   }
+}
